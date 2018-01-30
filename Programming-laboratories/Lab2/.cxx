@@ -11,8 +11,8 @@ int main() {
 	cin >> x;
 	cin >> y;
 	
-	sum = sin(x)+cos(y)/cos(x)-sin(y)*tan(x)*y;
-	cout << "Answer = " <<sum << endl;
+	sum = sin(x) + cos(y) / cos(x) - sin(y) * tan(x) * y;
+	cout << "Answer = " <<sum <<endl;
 	
 	return 0;
 }
