@@ -9,10 +9,13 @@ int main() {
 	double x, y;
 	double sum;
 	cout << "Please, input X and Y value: " << endl;
+	cout<< "Enter x = ";
 	cin >> x;
+	
+	cout<< "Enter y = ";
 	cin >> y;
 	
-	sum = (sin(x) + cos(y) / cos(x) - sin(y)) * tan(x * y);
+	sum = calculate(x, y);
 	cout << "Answer = " << sum << endl;
 	
 	return 0;
